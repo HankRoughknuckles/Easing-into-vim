@@ -30,9 +30,11 @@ set number 		" show the line number on the side
     
     " <c-tab> to go to next tab
     nnoremap <c-tab> :tabnext<cr>
+    inoremap <c-tab> <esc>:tabnext<cr>
     
     " <c-shift-tab> to go to previous tab
     nnoremap <c-s-tab> :tabprev<cr>
+    inoremap <c-s-tab> <esc>:tabprev<cr>
 
     " space-f to open fuzzy file finder
     nnoremap <leader>f :CtrlPClearCache<cr>:CtrlP .<cr>
@@ -43,5 +45,5 @@ set number 		" show the line number on the side
     " space-s to save
     nnoremap <leader>s :w<cr>
 
-    " space-q to quit (doesn't save, watch out!)
+   " space-q to quit (doesn't save, watch out!)
     nnoremap <leader>q :q!<cr>
