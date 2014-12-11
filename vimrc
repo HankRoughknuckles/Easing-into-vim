@@ -40,5 +40,8 @@ set number 		" show the line number on the side
     " space-o to open the file browser
     nnoremap <leader>o :NERDTreeToggle<cr>
 
+    " space-s to save
+    nnoremap <leader>s :w<cr>
+
     " space-q to quit (doesn't save, watch out!)
     nnoremap <leader>q :q!<cr>
