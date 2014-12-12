@@ -20,4 +20,4 @@ Some things to remember:
     
       -   Note, this might be slow if you open vim in a big directory. 
 
-      -   You can overcome this by going to the directory you want in terminal and using the mvim command there (or gvim if not on mac)
+      -   You can overcome this by going to the directory you want in terminal and using the `mvim` command there (or `gvim` if not on mac)
