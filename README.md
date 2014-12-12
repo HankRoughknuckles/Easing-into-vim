@@ -4,7 +4,7 @@ A .vimrc to help you transition into Vim
 Some things to remember:
 ----------------------
   
-- Opening and Saving *(just like other text editors, but use <Space> instead of <Ctrl>)*
+- Opening and Saving *(just like other text editors, but use `<Space>` instead of `<Ctrl>`)*
 
       -   Open = `<Space>o`   (select the file in the window that opens and press enter)
 
