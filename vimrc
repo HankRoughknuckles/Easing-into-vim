@@ -2,7 +2,7 @@
 let mapleader = "\<Space>"
 
 set backspace=2       	" make backspace able to go over end of lines
-set number 		" show the line number on the side
+set number 		          " show the line number on the side
 
 
 " Neo bundle stuff
