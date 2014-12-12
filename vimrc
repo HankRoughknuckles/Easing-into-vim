@@ -27,6 +27,9 @@ set number 		          " show the line number on the side
 " Key mappings
     " space-n to open a new file (in a new tab)
     nnoremap <leader>n :tabnew<cr>
+
+    " space-t to open a new tab
+    nnoremap <leader>t :tabnew<cr>
     
     " <c-tab> to go to next tab
     nnoremap <c-tab> :tabnext<cr>
