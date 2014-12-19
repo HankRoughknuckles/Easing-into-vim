@@ -1,52 +1,77 @@
+set nocompatible        " don't use old settings that vi used.  
+						" Use the newer features that vim offers
+
+
 " Make the leader key be space
 let mapleader = "\<Space>"
 
-set backspace=2       	" make backspace able to go over end of lines
-set number 		          " show the line number on the side
 
+set backspace=2       	" make backspace able to go over end of lines
+set number 		        " show the line number on the side
+
+
+" Tab stops
+	set tabstop=4    	" when you press tab, it will move forward 
+						" by 4 spaces
+" ----------------------------------------------------------------------
+	set shiftwidth=4 	" the number of spaces the >>, <<, >, and < 
+						" commands will move by will be 4
+" ----------------------------------------------------------------------
+	set smarttab 		" pressing backspace on a blank indented line 
+						" will delete the amount of spaces equal to 
+						" shiftwidth
 
 " Neo bundle stuff
-    set runtimepath+=~/.vim/bundle/neobundle.vim/
-    call neobundle#rc(expand('~/.vim/bundle/')) "required!
-    
-    " Let NeoBundle manage NeoBundle (Required!)
-    NeoBundleFetch 'Shougo/neobundle.vim'
-    
-    " Fuzzy finding for files
-    NeoBundle 'kien/ctrlp.vim'
-    
-    "Move around easier
-    NeoBundle 'Lokaltog/vim-easymotion'
-    
-    "File navigation
-    NeoBundle 'scrooloose/nerdtree'
-    
-    "Status line
-    NeoBundle 'bling/vim-airline'
+	set runtimepath+=~/.vim/bundle/neobundle.vim/
+	call neobundle#rc(expand('~/.vim/bundle/')) "required!
+
+	" Let NeoBundle manage NeoBundle (Required!)
+		NeoBundleFetch 'Shougo/neobundle.vim'
+
+	" Fuzzy finding for files
+		NeoBundle 'kien/ctrlp.vim'
+
+	"Move around easier
+		NeoBundle 'Lokaltog/vim-easymotion'
+
+	"File navigation
+		NeoBundle 'scrooloose/nerdtree'
+
+	"Status line
+		NeoBundle 'bling/vim-airline'
 
 " Key mappings
-    " space-n to open a new file (in a new tab)
-    nnoremap <leader>n :tabnew<cr>
+	" space-n to open a new file (in a new tab)
+		nnoremap <leader>n :tabnew<cr>
 
-    " space-t to open a new tab
-    nnoremap <leader>t :tabnew<cr>
-    
-    " <c-tab> to go to next tab
-    nnoremap <c-tab> :tabnext<cr>
-    inoremap <c-tab> <esc>:tabnext<cr>
-    
-    " <c-shift-tab> to go to previous tab
-    nnoremap <c-s-tab> :tabprev<cr>
-    inoremap <c-s-tab> <esc>:tabprev<cr>
+	" space-t to open a new tab
+		nnoremap <leader>t :tabnew<cr>
 
-    " space-f to open fuzzy file finder
-    nnoremap <leader>f :CtrlPClearCache<cr>:CtrlP .<cr>
+	" <c-tab> to go to next tab
+		nnoremap <c-tab> :tabnext<cr>
+		inoremap <c-tab> <esc>:tabnext<cr>
 
-    " space-o to open the file browser
-    nnoremap <leader>o :NERDTreeToggle<cr>
+	" <c-shift-tab> to go to previous tab
+		nnoremap <c-s-tab> :tabprev<cr>
+		inoremap <c-s-tab> <esc>:tabprev<cr>
 
-    " space-s to save
-    nnoremap <leader>s :w<cr>
+	" space-f to open fuzzy file finder
+		nnoremap <leader>f :CtrlPClearCache<cr>:CtrlP .<cr>
+
+	" space-o to open the file browser
+		nnoremap <leader>o :NERDTreeToggle<cr>
+
+	" space-s to save
+		nnoremap <leader>s :w<cr>
+
+	" space-q to quit (doesn't save, watch out!)
+		nnoremap <leader>q :q!<cr>
+
+
+
+" Key mappings that might be new
+	" space-rv to reload vimrc
+		nnoremap <leader>rv :source<Space>$MYVIMRC<cr>
 
 	" space-ev to edit the vimrc file (think: edit-vim)
 		nnoremap <leader>ev :tabnew $MYVIMRC<cr>
