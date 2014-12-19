@@ -48,5 +48,5 @@ set number 		          " show the line number on the side
     " space-s to save
     nnoremap <leader>s :w<cr>
 
-   " space-q to quit (doesn't save, watch out!)
-    nnoremap <leader>q :q!<cr>
+	" space-ev to edit the vimrc file (think: edit-vim)
+		nnoremap <leader>ev :tabnew $MYVIMRC<cr>
