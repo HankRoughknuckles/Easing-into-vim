@@ -7,14 +7,20 @@
 ########################
 
 dir=$(pwd)
-vimrc_path=~/.vimrc
+our_vimrc=$dir/vimrc
+system_vimrc=~/.vimrc
 backup_path=~/.vimrc-backup
 
-if [ -a $vimrc_path ]; then
+if [ -a $system_vimrc ]; then #if vimrc exists
   echo -n "Copying your current ~/.vimrc to ~/.vimrc-backup..."
-  mv $vimrc_path $backup_path
+  mv $system_vimrc $backup_path
   echo "done."
 else
-  echo "No ~/.vimrc found.  Moving on to copy the new .vimrc file in"
+  echo "No ~/.vimrc found.  Moving on to symlink the new .vimrc file"
 fi
 
+echo -n "Making a symlink of the new .vimrc file..."
+ln -s $our_vimrc $system_vimrc
+echo "done"
+
+echo "All finished! Boot up vim and give it a spin!"
