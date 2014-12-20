@@ -3,7 +3,7 @@ A .vimrc to help you transition into Vim
 
 Installation instructions:
 --------------------------
-- navigate to the this repo's folder and run `./install.sh`
+- Navigate to the this repo's folder and run `./install.sh`
 
 Some things to remember:
 ----------------------
