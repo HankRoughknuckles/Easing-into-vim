@@ -22,20 +22,24 @@ Some things to remember:
 ###Commands
   - Opening and Saving *(just like other text editors, but use `<Space>` instead of `<Ctrl>`)*
    
-    -   Open = `<Space>o`   (select the file in the window that opens and press enter)
+    - Open = `<Space>o`   (select the file in the window that opens and press enter)
 
-    -   New  = `<Space>n`
+    - New  = `<Space>n`
 
-    -   New tab = `<Space>t`
+    - New tab = `<Space>t`
 
-    -   Save = `<Space>s`
+    - Save = `<Space>s`
 
-    -   Quit = `<Space>q`
+    - Quit = `<Space>q`
    
-  -   Change tabs like in most other editors using `<Ctrl-Tab>` and `<Ctrl-Shift-Tab>`
+  - Change tabs like in most other editors using `<Ctrl-Tab>` and `<Ctrl-Shift-Tab>`
 
-  -   Open fuzzy file searching with `<Space>f` (think "fuzzy" as the keyword to remember)
+  - Open fuzzy file searching with `<Space>f` (think "fuzzy" as the pneumonic)
    
-      -   Note, this might be slow if you open vim in a big directory. 
+      - Note, this might be slow if you open vim in a big directory. 
 
-      -   You can overcome this by going to the directory you want in terminal and using the `mvim` command there (or `gvim` if not on mac)
+      - You can overcome this by going to the directory you want in terminal and using the `mvim` command there (or `gvim` if not on mac)
+
+  - Open up your vimrc file to edit it with `<Space>ev` (think "'E'dit 'V'imrc" as the pneumonic)
+
+  - After making changes to your vimrc, you can reload it to make the changes take effect with `<Space>rv (think "'R'eload 'V'imrc" as the pneumonic)
