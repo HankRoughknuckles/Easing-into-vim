@@ -6,7 +6,12 @@ Installation instructions:
 - Navigate to the this repo's folder and run `./install.sh`  
 
 - This will do the following things:
-  - install NeoBundle, a package manager for Vim, will backup your current .vimrc file, and will make a symlink from the repo's vimrc to your computer's `~/.vimrc` path.
+  - Install NeoBundle, a package manager for Vim
+  - Backup your current .vimrc file
+  - Make a symlink from the repo's vimrc to your computer's `~/.vimrc` path.
+
+- After running `./install.sh` run vim (either MacVim, GVim, or Terminal
+  Vim) and you'll be ready to go!
 
 Some things to remember:
 ----------------------
