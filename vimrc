@@ -23,22 +23,28 @@ set number 		        " show the line number on the side
 
 " Neo bundle stuff
 	set runtimepath+=~/.vim/bundle/neobundle.vim/
-	call neobundle#rc(expand('~/.vim/bundle/')) "required!
+	call neobundle#begin(expand('~/.vim/bundle/'))
+		" Let NeoBundle manage NeoBundle (Required!)
+			NeoBundleFetch 'Shougo/neobundle.vim'
 
-	" Let NeoBundle manage NeoBundle (Required!)
-		NeoBundleFetch 'Shougo/neobundle.vim'
+		" Fuzzy finding for files
+			NeoBundle 'kien/ctrlp.vim'
 
-	" Fuzzy finding for files
-		NeoBundle 'kien/ctrlp.vim'
+		"Move around easier
+			NeoBundle 'Lokaltog/vim-easymotion'
 
-	"Move around easier
-		NeoBundle 'Lokaltog/vim-easymotion'
+		"File navigation
+			NeoBundle 'scrooloose/nerdtree'
 
-	"File navigation
-		NeoBundle 'scrooloose/nerdtree'
+		"Status line
+			 NeoBundle 'bling/vim-airline'
+	call neobundle#end()
 
-	"Status line
-		NeoBundle 'bling/vim-airline'
+	 filetype plugin indent on 			" Required:
+
+	 " If there are uninstalled bundles found on startup,
+	 " this will conveniently prompt you to install them.
+	 NeoBundleCheck
 
 " Key mappings
 	" space-n to open a new file (in a new tab)
