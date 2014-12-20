@@ -13,6 +13,7 @@ backup_path=~/.vimrc-backup
 
 # Add automatic installation of the NeoBundle script - look on github
 
+# Make a backup of user's vimrc
 if [ -a $system_vimrc ]; then #if vimrc exists
   echo -n "Copying your current ~/.vimrc to ~/.vimrc-backup..."
   mv $system_vimrc $backup_path
