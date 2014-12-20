@@ -3,7 +3,10 @@ A .vimrc to help you transition into Vim
 
 Installation instructions:
 --------------------------
-- Navigate to the this repo's folder and run `./install.sh`
+- Navigate to the this repo's folder and run `./install.sh`  
+
+- This will do the following things:
+  - install NeoBundle, a package manager for Vim, will backup your current .vimrc file, and will make a symlink from the repo's vimrc to your computer's `~/.vimrc` path.
 
 Some things to remember:
 ----------------------
