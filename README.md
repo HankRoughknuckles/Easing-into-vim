@@ -20,22 +20,22 @@ Some things to remember:
 - Most of these should work in macvim and/or gvim, but you might have some weirdness if you use standard terminal vim
   
 ###Commands
-   - Opening and Saving *(just like other text editors, but use `<Space>` instead of `<Ctrl>`)*
+  - Opening and Saving *(just like other text editors, but use `<Space>` instead of `<Ctrl>`)*
    
-      -   Open = `<Space>o`   (select the file in the window that opens and press enter)
+    -   Open = `<Space>o`   (select the file in the window that opens and press enter)
+
+    -   New  = `<Space>n`
+
+    -   New tab = `<Space>t`
+
+    -   Save = `<Space>s`
+
+    -   Quit = `<Space>q`
    
-      -   New  = `<Space>n`
+  -   Change tabs like in most other editors using `<Ctrl-Tab>` and `<Ctrl-Shift-Tab>`
+
+  -   Open fuzzy file searching with `<Space>f` (think "fuzzy" as the keyword to remember)
    
-      -   New tab = `<Space>t`
-   
-      -   Save = `<Space>s`
-   
-      -   Quit = `<Space>q`
-   
-   -   Change tabs like in most other editors using `<Ctrl-Tab>` and `<Ctrl-Shift-Tab>`
-   
-   -   Open fuzzy file searching with `<Space>f` (think "fuzzy" as the keyword to remember)
-       
       -   Note, this might be slow if you open vim in a big directory. 
-   
+
       -   You can overcome this by going to the directory you want in terminal and using the `mvim` command there (or `gvim` if not on mac)
