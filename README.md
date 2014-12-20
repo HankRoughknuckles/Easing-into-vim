@@ -1,6 +1,10 @@
 A .vimrc to help you transition into Vim
 =============================
 
+Installation instructions:
+--------------------------
+- navigate to the this repo's folder and run `./install.sh`
+
 Some things to remember:
 ----------------------
 - If you're starting with Vim, using macvim or gvim (the newer GUI implementations of Vim), will be easier to use
