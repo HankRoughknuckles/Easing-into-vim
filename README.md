@@ -26,7 +26,7 @@ Some things to remember:
 
     - New File  = `<Space>n`
 
-    - New tab = `<Space>t`
+    - New Tab = `<Space>t`
 
     - Save = `<Space>s`
 
