@@ -24,7 +24,7 @@ Some things to remember:
    
     - Open = `<Space>o`   (select the file in the window that opens and press enter)
 
-    - New  = `<Space>n`
+    - New File  = `<Space>n`
 
     - New tab = `<Space>t`
 
