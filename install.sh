@@ -22,6 +22,7 @@ else
   echo "No ~/.vimrc found.  Moving on to symlink the new .vimrc file"
 fi
 
+#Make symlink of this repo's vimrc to ~/.vimrc
 echo -n "Making a symlink of the new .vimrc file..."
 ln -s $our_vimrc $system_vimrc
 echo "done"
