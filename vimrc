@@ -36,11 +36,9 @@ set number 		        " show the line number on the side
 		"File navigation
 			NeoBundle 'scrooloose/nerdtree'
 
-		"Status line
-			 NeoBundle 'bling/vim-airline'
 	call neobundle#end()
 
-	 filetype plugin indent on 			" Required:
+  filetype plugin indent on 			" Required:
 
 	 " If there are uninstalled bundles found on startup,
 	 " this will conveniently prompt you to install them.
