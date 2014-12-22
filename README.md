@@ -30,6 +30,8 @@ Some things to remember:
 
     - Save = `<Space>s`
 
+	- Save-As = `<Space><Shift>s`
+
     - Quit = `<Space>q`
    
   - Change tabs like in most other editors using `<Ctrl-Tab>` and `<Ctrl-Shift-Tab>`

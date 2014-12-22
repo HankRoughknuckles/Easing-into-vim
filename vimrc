@@ -68,6 +68,9 @@ set number 		        " show the line number on the side
 	" space-s to save
 		nnoremap <leader>s :w<cr>
 
+  " space-shift-s to save as
+    nnoremap <leader><s-s> :w 
+
 	" space-q to quit (doesn't save, watch out!)
 		nnoremap <leader>q :q!<cr>
 
