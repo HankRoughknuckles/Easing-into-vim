@@ -10,8 +10,9 @@ Installation instructions:
   - Backup your current .vimrc file
   - Make a symlink from the repo's vimrc to your computer's `~/.vimrc` path.
 
-- After running `./install.sh` run vim (either MacVim, GVim, or Terminal
-  Vim) and you'll be ready to go!
+- After running `./install.sh` run a graphical version of vim (either MacVim or GVim) for best results.
+
+- Upon starting up, you'll be asked to install some plugins, choose yes  and you'll be ready to go after they install
 
 Some things to remember:
 ----------------------
