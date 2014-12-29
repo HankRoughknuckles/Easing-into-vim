@@ -12,7 +12,7 @@ Installation instructions:
 
 - After running `./install.sh` run a graphical version of vim (either MacVim or GVim) for best results.
 
-- Upon starting up, you'll be asked to install some plugins, choose yes  and you'll be ready to go after they install
+- Upon starting up, you'll be asked to install some plugins, choose yes and you'll be ready to go after they install
 
 Some things to remember:
 ----------------------
