@@ -30,4 +30,5 @@ echo -n "Making a symlink of the new .vimrc file..."
 ln -s $our_vimrc $system_vimrc
 echo "done"
 
-echo "All finished! Boot up Vim and give it a spin!"
+echo "All finished! When you run vim, it'll ask you to install some plugins.  Choose yes and you'll be ready to go!"
+echo "Note: This setup works best in a graphical version of vim, so it's highly recommended to use macvim (type mvim in the terminal) or gvim (type gvim in the terminal)"
