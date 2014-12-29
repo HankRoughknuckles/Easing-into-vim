@@ -99,3 +99,9 @@ syntax enable			"use syntax highlighting
 
 	" space-ev to edit the vimrc file (think: edit-vim)
 		nnoremap <leader>ev :tabnew $MYVIMRC<cr>
+
+
+" Other keymappings to make the experience less painful
+  "make j and k keys go up normally instead of to the previous line number
+    nnoremap j gj
+    nnoremap k gk
