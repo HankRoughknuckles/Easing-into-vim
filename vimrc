@@ -16,7 +16,12 @@ set nornu           	"do not make the line numbers relative to cursor
 set mousehide       	"hide mouse cursor while typing
 set showmode        	"display the current mode
 set cursorline      	"highlight the current line
+set backspace=2			"make backspace able to go over end of lines
+set backspace=indent,eol,start	"Set regular backspace during insert mode
 
+set wrap
+
+syntax enable			"use syntax highlighting
 
 " Tab stops
 	set tabstop=4    	" when you press tab, it will move forward 
@@ -43,6 +48,10 @@ set cursorline      	"highlight the current line
 
 		"File navigation
 			NeoBundle 'scrooloose/nerdtree'
+
+
+		"Coffeescript integration and syntax highlighting
+			NeoBundle 'kchmck/vim-coffee-script'
 
 	call neobundle#end()
 
@@ -77,8 +86,8 @@ set cursorline      	"highlight the current line
 	" space-s to save
 		nnoremap <leader>s :w<cr>
 
-  " space-shift-s to save as
-    nnoremap <leader><s-s> :w 
+	" space-shift-s to save as
+		nnoremap <leader><s-s> :w 
 
 	" space-q to quit (doesn't save, watch out!)
 		nnoremap <leader>q :q!<cr>
