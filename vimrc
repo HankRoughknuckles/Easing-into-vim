@@ -8,6 +8,14 @@ let mapleader = "\<Space>"
 
 set backspace=2       	" make backspace able to go over end of lines
 set number 		        " show the line number on the side
+set laststatus=2    	"always show the status line
+set t_Co=256        	"set colors to 256
+
+set number          	"show line number on side
+set nornu           	"do not make the line numbers relative to cursor
+set mousehide       	"hide mouse cursor while typing
+set showmode        	"display the current mode
+set cursorline      	"highlight the current line
 
 
 " Tab stops
@@ -43,6 +51,7 @@ set number 		        " show the line number on the side
 	 " If there are uninstalled bundles found on startup,
 	 " this will conveniently prompt you to install them.
 	 NeoBundleCheck
+
 
 " Key mappings
 	" space-n to open a new file (in a new tab)
