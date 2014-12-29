@@ -16,7 +16,7 @@ Installation instructions:
 
 Some things to remember:
 ----------------------
-- If you're starting with Vim, using macvim or gvim (the newer GUI implementations of Vim), will be easier to use
+- If you're starting with Vim, using macvim or gvim (the newer GUI implementations of Vim), will be easier
 
 - Most of these should work in macvim and/or gvim, but you might have some weirdness if you use standard terminal vim
   
