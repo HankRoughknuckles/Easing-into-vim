@@ -45,3 +45,4 @@ Some things to remember:
   - Open up your vimrc file to edit it with `<Space>ev` (think "'E'dit 'V'imrc" as the pneumonic)
 
   - After making changes to your vimrc, you can reload it to make the changes take effect with `<Space>rv (think "'R'eload 'V'imrc" as the pneumonic)
+
