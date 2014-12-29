@@ -19,9 +19,8 @@ set cursorline      	"highlight the current line
 set backspace=2			"make backspace able to go over end of lines
 set backspace=indent,eol,start	"Set regular backspace during insert mode
 
-set wrap
-
 syntax enable			"use syntax highlighting
+
 
 " Tab stops
 	set tabstop=4    	" when you press tab, it will move forward 
